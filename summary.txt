@@ -1,0 +1,27 @@
+NOTE: DFS and BFS include the 1.5 cost for going over turfs because, to my understanding, it's only
+the search algorithm that ignores path costs, and this summary file is asking for the actual cost of
+the path. If we were to ask for the PATH COST of these two algorithms WITHOUT turf's 1.5 cost, then
+the "Number of Nodes in Path" value would be their cost (each step only costs 1, thus the number of
+nodes in the path would be the same as the cost of the path).
+
+-----------------------------
+
+BREADTH FIRST SEARCH:
+Path cost: 87
+Nodes expanded: 2029
+Number of Nodes in Path: 82
+
+DEPTH FIRST SEARCH:
+Path cost: 836
+Nodes expanded: 1249
+Number of Nodes in Path: 760
+
+GREEDY BEST FIRST SEARCH:
+Path cost: 94
+Nodes expanded: 102
+Number of Nodes in Path: 84
+
+A* SEARCH:
+Path cost: 85
+Nodes expanded: 1723
+Number of Nodes in Path: 82
