@@ -25,3 +25,10 @@ Path Finder is a basic implementation of artificial intelligence that utilizes d
 There are four algorithms total that the user can choose from to calculate this best path. Two are uninformed (breadth first search and depth first search) and two are informed (greedy best first search and A* search).
 
 User can visualize each algorithm's path decision in one execution; there is no need to rerun to view a different search result.
+
+
+### Future Features
+- Ability to change start/endpoints
+- Ability to add terrain conditions
+- Ability to define grid size
+- Additional obstacles
